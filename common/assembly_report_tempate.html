@@ -1,0 +1,114 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		body{{margin-left:30px;color:#3a4044;font-size:14px;font-family:'-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;';background-color:#f6f8fa}}
+		.product{{color:#3a4044;font-size:28px;}}
+		.title{{color:#3a4044;font-size:14px;}}
+		.info{{color:#3a4044;font-size:14px;}}
+		.subTitle{{color: #00429c;font-size: 14px;font-family: '微软雅黑';font-weight: bold;}}
+		.total{{color:#3a4044;padding-left:10px;font-size: 11px;font-family: Arial;font-weight:bold;}}
+		.pass{{color:#008800;padding-left:10px;font-size: 11px;font-family: Arial;font-weight:bold;}}
+		.fail{{color:#880000;padding-left:10px;font-size: 11px;font-family: Arial;font-weight:bold;}}
+		.head {{background-color:#dddddd;height: 28px;}}
+		.normal {{background-color:#ffffff;height:28px;}}
+		.normal1 {{background-color:#f5f5f5;height:28px;}}
+		a{{color:#1077ab;font-family:'Microsoft YaHei';text-decoration:none;}}
+		table.information {{ background:#fff;font-size:12px;border:#aaa 1px solid; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;box-shadow: 2px 2px 0px #e0e0e0;}}
+		table.information td {{padding:2px 10px 4px 10px}}
+		table.dataintable {{margin-top:6px;border-collapse:collapse;border:1px solid #aaa;font-size:12px;word-break:break-all;box-shadow: 2px 2px 0px #e0e0e0;}}
+		table.dataintable th {{vertical-align: baseline;padding: 4px 4px 4px 4px;background-color: #3f3f3f;font-weight: normal;border: 1px solid #3f3f3f;text-align: left;color: #ffffff;}}
+		table.dataintable td {{vertical-align:text-top;padding:4px 4px 4px 4px;border:1px solid #aaa;}}
+		table.dataintable pre {{margin:0;padding:0;border:0;background-color:transparent;}}
+		table.dataintable p {{margin:0 0 2px 0;}}
+		div#maincontent table.dataintable ul, div#maincontent table.dataintable li {{list-style-type:none;margin:0;padding:0;}}
+		table.dataintable td em{{color:#0000ff;font-weight:normal;}}
+		table.dataintable .table_value {{color:#0F93D2;}}
+		div#maincontent table.dataintable ul.listintable {{margin:20px;padding:0;}}
+		div#maincontent table.dataintable ul.listintable li{{list-style-type:disc;}}
+		.line-limit-length {{overflow: hidden;text-overflow: ellipsis;white-space: nowrap; }}
+	</style>
+	<script type="text/javascript">
+		function onSuiteClick(id)
+		{{
+			btn = document.getElementById("tabld_" + id.replace(/\./g,"\\.").replace(/\@/g,"\\@"));
+			tip = document.getElementById("tip_" + id.replace(/\./g,"\\.").replace(/\@/g,"\\@"));
+			if(btn.style.display != "none")
+			{{
+				btn.style.display = 'none';
+			}}else{{
+				btn.style.display = "";
+			}}
+		}}
+
+		function onItemClick(id, count)
+		{{
+			trs = document.querySelectorAll("tr#sub_item_" + id.replace(/\./g,"\\.").replace(/\@/g,"\\@"));
+			for(var key in trs)
+			{{
+				if(trs[key].style.display != "none")
+				{{
+					trs[key].style.display = 'none';
+				}}else{{
+					trs[key].style.display = "";
+				}}
+			}}
+
+		}}
+	</script>
+	<body>
+		<a href="http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:1.总览" target="_blank">
+			<img src="data:image/png;base64,{parameter_img_rhino_big}"/>
+		</a>
+		<a href="http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:自动化测试:融合自动化测试_aat:1.简介" target="_blank">
+			<img src="data:image/png;base64,{parameter_img_aat_big}"/>
+		</a>
+		<table class="information">
+			<tr>
+			<td><span>产品/版本 :</span></td>
+			<td><span>{parameter_product}  </span><span>  {parameter_version}</span></td>
+			</tr>
+			<tr>
+			<td><span>配置 :</span></td>
+			<td><span>{parameter_cpu}</span> <span>[{parameter_ram}+{parameter_rom}]</span></td>
+			</tr>
+			<tr>
+			<td><span>SN :</span></td>
+			<td><span>{parameter_sn}</span></td>
+			</tr>
+			<tr>
+			<td><span>开始时间 :</span></td>
+			<td><span>{parameter_starttime}</span></td>
+			</tr>
+			<tr>
+			<td><span>结束时间 :</span></td>
+			<td><span>{parameter_endtime}</span></td>
+			</tr>
+			<tr>
+			<td><span>执行耗时 :</span></td>
+			<td><span>{parameter_durationtime}</span></td>
+			</tr>
+			<tr>
+			<td><span>总用例数量 :</span></td>
+			<td><span class="total bold">{parameter_total}</span></td>
+			</tr>
+			<tr>
+			<td><span>执行状态概览 :</span></td>
+			<td><span class="pass bold">Success : {parameter_count_success}</span><span class="fail bold">Error : {parameter_count_error}</span><span class="total bold">Block : {parameter_count_block}</span></td>
+			</tr>
+			<tr>
+			<td><span>执行结果概览 :</span></td>
+			<td><span class="pass bold">Pass : {parameter_count_pass}</span><span class="fail bold">Fail : {parameter_count_fail}</span><span class="total bold">Undefine : {parameter_count_undefine}</span></td>
+			</tr>
+		</table>
+		<br>
+		{parameter_content}
+		<br>
+		<img src="data:image/png;base64,{parameter_img_powerby}"/>
+		<a href="http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:1.总览" target="_blank">
+			<img src="data:image/png;base64,{parameter_img_rhino_small}" style="padding-right:3px;">
+		</a>
+		<a href="http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:自动化测试:融合自动化测试_aat:1.简介" target="_blank">
+			<img src="data:image/png;base64,{parameter_img_aat_small}"/>
+		</a>
+	</body>
+</html>

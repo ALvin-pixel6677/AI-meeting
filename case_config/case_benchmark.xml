@@ -1,0 +1,6 @@
+<config>
+    <TestSuite title="Windows Benchmark用例" id="AAT_UI_Windows" catalog="cine_bench">
+        <TestCase title="计算器" id="Benchmark_CineBench_00300" package="calc"
+                  path="Benchmark_CineBench_00300.Benchmark_CineBench_00300"/>
+    </TestSuite>
+</config>
