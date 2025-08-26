@@ -1,0 +1,116 @@
+2025-06-09 09:58:52,307 sINFO     | Login: Admin
+2025-06-09 09:58:52,323 sDEBUG    | Parameter01:1000
+2025-06-09 09:58:52,323 sDEBUG    | Parameter02:1000
+2025-06-09 09:58:52,323 sDEBUG    | ###### set product and version: STARK, V100B001
+2025-06-09 09:58:52,323 sDEBUG    | ###### set runner: AATCommonRunner
+2025-06-09 09:58:52,372 sDEBUG    | ###### set collector: EVRecordCollector
+2025-06-09 09:58:52,372 sDEBUG    | ###### add analyzers: EVRecordCollector
+2025-06-09 09:58:52,372 sDEBUG    | ###### set analyzer: CompareFileAnalyzer
+2025-06-09 09:58:52,372 sDEBUG    | ###### set device type: device_windows
+2025-06-09 09:58:52,372 sDEBUG    | ###### set value: Config_Project_round - [1,None]
+2025-06-09 09:58:52,372 sDEBUG    | ###### set value: Config_TestCase_round - [1,None]
+2025-06-09 09:58:52,374 sDEBUG    | ###### set value: Config_TestCase_Random - [False,None]
+2025-06-09 09:58:52,374 sDEBUG    | ###### set value: Config_PrePare_Mode - [Mode_TestSuite,None]
+2025-06-09 09:58:52,374 sINFO     | ###### start runner
+2025-06-09 09:58:52,376 sINFO     | 当前指定设备类型为：WindowsDevice， 共匹配设备1台。
+2025-06-09 09:58:52,378 sINFO     | ############Project loop : 0 #############
+2025-06-09 09:58:52,378 sINFO     | run TestSuilt start : 音频识别[SpeechRecognize]
+2025-06-09 09:58:52,378 sINFO     | #########run TestCase: 笔记-媒体音内录 [note_sys]
+2025-06-09 09:58:52,480 sINFO     | EV录屏软件安装路径：D:\EVCapture\
+2025-06-09 09:58:52,480 sDEBUG    | start cmd: EVCapture.exe , cwd=D:\EVCapture, process_title=EVCapture.exe
+2025-06-09 09:58:52,492 sDEBUG    | waiting to load application...
+2025-06-09 09:58:56,229 sDEBUG    | start application finished. EVCapture.exe
+2025-06-09 09:59:06,364 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [10/10]
+2025-06-09 09:59:16,070 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 09:59:16,141 sDEBUG    | waiting [text:{'text': '常规'}] ok
+2025-06-09 09:59:16,156 sDEBUG    | click: [常规/::0xC352]  (797,577)]
+2025-06-09 09:59:18,259 sDEBUG    | waiting [text:{'text': '本地录制'}] ok
+2025-06-09 09:59:18,300 sDEBUG    | click: [本地录制/::0xC352]  (1134,586)]
+2025-06-09 09:59:19,183 sDEBUG    | click: [仅系统声音/::0xC353]  (1505,739)]
+2025-06-09 09:59:21,317 sDEBUG    | waiting [text:{'text': '仅系统声音'}] ok
+2025-06-09 09:59:21,358 sDEBUG    | click: [仅系统声音/::0xC357]  (1472,900)]
+2025-06-09 09:59:24,534 sDEBUG    | waiting [ex:{'text': '录制', 'id': None, 'type': 50002, 'class_name': None}] ok
+2025-06-09 09:59:24,583 sDEBUG    | click: [录制/::0xC352]  (745,1360)]
+2025-06-09 09:59:27,587 sINFO     | run TestCase start : 笔记-媒体音内录[note_sys] 0
+2025-06-09 09:59:27,601 sINFO     | 荣耀超级工作台启动路径：C:\Program Files\Hihonornote\Hihonornote.exe
+2025-06-09 09:59:38,019 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [10/10]
+2025-06-09 09:59:38,046 sINFO     | 打开荣耀笔记
+2025-06-09 09:59:39,729 sDEBUG    | waiting [id:{'id': 'note_key'}] ok
+2025-06-09 09:59:39,750 sDEBUG    | click: [笔记/:note_key:0xC36A]  (575,656)]
+2025-06-09 09:59:39,750 sINFO     | 新建笔记
+2025-06-09 09:59:44,641 sDEBUG    | maximize
+2025-06-09 09:59:46,356 sDEBUG    | waiting [text:{'text': '新建笔记'}] ok
+2025-06-09 09:59:46,371 sDEBUG    | click: [新建笔记/::0xC364]  (410,139)]
+2025-06-09 09:59:49,021 sDEBUG    | waiting [text:{'text': '标题'}] ok
+2025-06-09 09:59:49,066 sDEBUG    | input/1[2025-06-09 09:59:48]: [2025-06-09 09:59:48/:titleTextArea:0xC354]  (2183,232)]
+2025-06-09 09:59:50,358 sDEBUG    | waiting [text:{'text': '全屏'}] ok
+2025-06-09 09:59:50,358 sINFO     | 找到全屏按钮，点击全屏
+2025-06-09 09:59:50,363 sDEBUG    | click: [全屏/::0xC36A]  (1386,129)]
+2025-06-09 09:59:51,470 sDEBUG    | waiting [id:{'id': '_hinote-stage'}] ok
+2025-06-09 09:59:51,470 sINFO     | 点击编辑区域,使编辑处于激活状态
+2025-06-09 09:59:51,483 sDEBUG    | click: [
+/:_hinote-stage:0xC354]  (1590,1158)]
+2025-06-09 09:59:52,503 sDEBUG    | waiting [text:{'text': '录音'}] ok
+2025-06-09 09:59:52,503 sINFO     | 找到录音按钮,点击录音
+2025-06-09 09:59:52,513 sDEBUG    | click: [录音/::0xC36A]  (2300,129)]
+2025-06-09 09:59:54,323 sDEBUG    | waiting [text:{'text': '更多'}] ok
+2025-06-09 09:59:54,329 sDEBUG    | click: [更多/::0xC364]  (2721,391)]
+2025-06-09 09:59:56,400 sDEBUG    | waiting [text:{'text': '系统内录'}] ok
+2025-06-09 09:59:56,400 sINFO     | 设置系统收音方式:系统内录
+2025-06-09 09:59:56,411 sDEBUG    | click: [系统内录/::0xC36A]  (2640,631)]
+2025-06-09 09:59:57,347 sDEBUG    | waiting [text:{'text': '退出全屏'}] ok
+2025-06-09 09:59:57,347 sINFO     | 找到退出全屏按钮，点击退出全屏
+2025-06-09 09:59:57,363 sDEBUG    | click: [退出全屏/::0xC36A]  (200,129)]
+2025-06-09 09:59:59,235 sDEBUG    | waiting [text:{'text': '显示发言人'}] ok
+2025-06-09 09:59:59,235 sINFO     | 点击=====》显示发言人
+2025-06-09 09:59:59,245 sDEBUG    | click: [显示发言人/::0xC364]  (1854,391)]
+2025-06-09 09:59:59,247 sINFO     | 视频文件地址：D:\程嘉琪\单人-中文-B站网课语料.wav
+2025-06-09 10:06:02,884 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [360/360]
+2025-06-09 10:06:02,885 sINFO     | 关闭视频播放
+2025-06-09 10:06:04,949 sDEBUG    | stop
+2025-06-09 10:06:12,944 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:15,020 sDEBUG    | waiting [class:{'class_name': 'Qt5QWindowToolSaveBits'}] ok
+2025-06-09 10:06:20,051 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:20,091 sDEBUG    | waiting [text:{'text': 'stop'}] ok
+2025-06-09 10:06:20,108 sDEBUG    | click: [stop/::0xC350]  (2891,941)]
+2025-06-09 10:06:30,402 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:30,403 sINFO     | 重命名录制视频存在
+2025-06-09 10:06:30,556 sINFO     | 关闭录屏
+2025-06-09 10:06:39,264 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:39,265 sDEBUG    | stop
+2025-06-09 10:06:47,249 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:48,030 sINFO     | 通过截图匹配停止录音按钮
+2025-06-09 10:06:48,037 sDEBUG    | click: [/::0x-1]  (1408,241)]
+2025-06-09 10:06:53,100 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:06:53,101 sINFO     | 保存全部译文
+2025-06-09 10:06:53,768 sDEBUG    | waiting [text:{'text': '显示发言人'}] ok
+2025-06-09 10:06:53,768 sINFO     | 点击=====》显示发言人
+2025-06-09 10:06:53,787 sDEBUG    | click: [显示发言人/::0xC364]  (1854,391)]
+2025-06-09 10:06:58,838 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:07:03,027 sDEBUG    | waiting [text:{'text': '显示发言人'}] ok
+2025-06-09 10:07:07,295 sINFO     | 获取录音笔记内容存储路径：C:\Users\1\.config\hihonornote\resources
+2025-06-09 10:07:07,295 sINFO     | 最新目录：C:\Users\1\.config\hihonornote\resources\2351758ff3594595a89e9901d35ea1a2
+2025-06-09 10:07:11,500 sDEBUG    | waiting [text:{'text': 'AI\\s*会议纪要'}] ok
+2025-06-09 10:07:11,517 sDEBUG    | click: [AI 会议纪要/::0xC364]  (2183,391)]
+2025-06-09 10:07:14,312 sDEBUG    | waiting [text:{'text': '常规汇报会议'}] ok
+2025-06-09 10:07:14,333 sDEBUG    | click: [常规汇报会议/::0xC364]  (2643,448)]
+2025-06-09 10:07:27,393 sDEBUG    | waiting [text:{'text': '复制'}] ok
+2025-06-09 10:07:29,433 sDEBUG    | click: [复制/::0xC364]  (2757,1688)]
+2025-06-09 10:07:31,439 sINFO     | 会议纪要已保存，正常退出
+2025-06-09 10:07:36,494 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:07:36,495 sINFO     | run TestCase end : 笔记-媒体音内录[note_sys] 0
+2025-06-09 10:07:43,991 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:07:43,991 sINFO     | 比较字错率
+2025-06-09 10:07:44,398 sINFO     | 字符总数1131,错误数61
+2025-06-09 10:07:44,399 sINFO     | run TestSuilt end : 音频识别[SpeechRecognize]
+2025-06-09 10:07:44,399 sINFO     | ########################### loop finished
+2025-06-09 10:07:46,410 sINFO     | ####### project finished!!
+2025-06-09 10:07:46,410 sINFO     |                               
+2025-06-09 10:07:46,410 sINFO     |      █████╗  █████╗ ████████╗
+2025-06-09 10:07:46,410 sINFO     |     ██╔══██╗██╔══██╗╚══██╔══╝
+2025-06-09 10:07:46,410 sINFO     |     ███████║███████║   ██║   
+2025-06-09 10:07:46,410 sINFO     |     ██╔══██║██╔══██║   ██║   
+2025-06-09 10:07:46,410 sINFO     |     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ V2.1.0 [buid_id:2025-04-17-185984]
+2025-06-09 10:07:46,410 sINFO     | 获取帮助及最新版本: http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:自动化测试:融合自动化测试_aat:1.简介
+2025-06-09 10:07:47,371 sINFO     | TestCase: Total:1 | Sucess:1, Error:0, BLock:0 | Pass:0, Fail:0, Undefind:1
+2025-06-09 10:07:47,371 sINFO     | report: D:\code\aat_project_pc_speech_recognize\report\report.xml

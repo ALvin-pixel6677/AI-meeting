@@ -1,0 +1,97 @@
+2025-06-09 10:17:30,797 sINFO     | Login: Admin
+2025-06-09 10:17:30,798 sDEBUG    | Parameter01:1000
+2025-06-09 10:17:30,799 sDEBUG    | Parameter02:1000
+2025-06-09 10:17:30,799 sDEBUG    | ###### set product and version: STARK, V100B001
+2025-06-09 10:17:30,799 sDEBUG    | ###### set runner: AATCommonRunner
+2025-06-09 10:17:30,817 sDEBUG    | ###### set collector: EVRecordCollector
+2025-06-09 10:17:30,817 sDEBUG    | ###### add analyzers: EVRecordCollector
+2025-06-09 10:17:30,818 sDEBUG    | ###### set analyzer: CompareFileAnalyzer
+2025-06-09 10:17:30,818 sDEBUG    | ###### set device type: device_windows
+2025-06-09 10:17:30,818 sDEBUG    | ###### set value: Config_Project_round - [1,None]
+2025-06-09 10:17:30,818 sDEBUG    | ###### set value: Config_TestCase_round - [1,None]
+2025-06-09 10:17:30,819 sDEBUG    | ###### set value: Config_TestCase_Random - [False,None]
+2025-06-09 10:17:30,820 sDEBUG    | ###### set value: Config_PrePare_Mode - [Mode_TestSuite,None]
+2025-06-09 10:17:30,820 sINFO     | ###### start runner
+2025-06-09 10:17:30,833 sINFO     | 当前指定设备类型为：WindowsDevice， 共匹配设备1台。
+2025-06-09 10:17:30,834 sINFO     | ############Project loop : 0 #############
+2025-06-09 10:17:30,834 sINFO     | run TestSuilt start : 音频识别[SpeechRecognize]
+2025-06-09 10:17:30,835 sINFO     | #########run TestCase: AI字幕-媒体音内录 [ai_sys]
+2025-06-09 10:17:30,995 sINFO     | EV录屏软件安装路径：D:\EVCapture\
+2025-06-09 10:17:30,995 sDEBUG    | start cmd: EVCapture.exe , cwd=D:\EVCapture, process_title=EVCapture.exe
+2025-06-09 10:17:31,008 sDEBUG    | waiting to load application...
+2025-06-09 10:17:33,158 sDEBUG    | start application finished. EVCapture.exe
+2025-06-09 10:17:43,214 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [10/10]
+2025-06-09 10:17:52,937 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:17:53,004 sDEBUG    | waiting [text:{'text': '常规'}] ok
+2025-06-09 10:17:53,020 sDEBUG    | click: [常规/::0xC352]  (797,577)]
+2025-06-09 10:17:55,104 sDEBUG    | waiting [text:{'text': '本地录制'}] ok
+2025-06-09 10:17:55,117 sDEBUG    | click: [本地录制/::0xC352]  (1134,586)]
+2025-06-09 10:17:56,029 sDEBUG    | click: [仅系统声音/::0xC353]  (1505,739)]
+2025-06-09 10:17:58,140 sDEBUG    | waiting [text:{'text': '仅系统声音'}] ok
+2025-06-09 10:17:58,149 sDEBUG    | click: [仅系统声音/::0xC357]  (1472,900)]
+2025-06-09 10:18:01,298 sDEBUG    | waiting [ex:{'text': '录制', 'id': None, 'type': 50002, 'class_name': None}] ok
+2025-06-09 10:18:01,315 sDEBUG    | click: [录制/::0xC352]  (745,1360)]
+2025-06-09 10:18:01,316 sINFO     | run TestCase start : AI字幕-媒体音内录[ai_sys] 0
+2025-06-09 10:18:01,330 sINFO     | C:\Program Files\HONOR\HNMagicAI\AIAssistantMain.exe
+2025-06-09 10:18:01,331 sDEBUG    | start cmd: AIAssistantMain.exe , cwd=C:\Program Files\HONOR\HNMagicAI, process_title=AIAssistantMain.exe
+2025-06-09 10:18:01,343 sDEBUG    | waiting to load application...
+2025-06-09 10:18:06,167 sDEBUG    | start application finished. AIAssistantMain.exe
+2025-06-09 10:18:14,221 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:18:15,250 sDEBUG    | waiting [id:{'id': 'btnClose'}] ok
+2025-06-09 10:18:15,250 sDEBUG    | moveto: [/关闭:btnClose:0xC350] Button (2504,356)]
+2025-06-09 10:18:16,261 sINFO     | 关闭YOYO助理窗口
+2025-06-09 10:18:16,281 sDEBUG    | click: [/关闭:btnClose:0xC350] Button (2504,356)]
+2025-06-09 10:18:17,947 sDEBUG    | waiting [id:{'id': 'FloatingBallButton'}] ok
+2025-06-09 10:18:17,948 sDEBUG    | moveto: [/:FloatingBallButton:0xC350] Button (2992,1055)]
+2025-06-09 10:18:18,802 sDEBUG    | waiting [text:{'text': 'AI\\s*字幕'}] ok
+2025-06-09 10:18:18,805 sINFO     | 识别到：AI\s*字幕
+2025-06-09 10:18:18,834 sDEBUG    | click: [AI 字幕/::0xC364] TextBlock (2848,1055)]
+2025-06-09 10:18:28,942 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [10/10]
+2025-06-09 10:18:28,943 sINFO     | 视频文件地址：D:\程嘉琪\测试素材-会议\测试素材-会议\素材\多人-中文-多人会议实录.wav
+2025-06-09 10:24:22,458 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [350/350]
+2025-06-09 10:24:22,459 sINFO     | 关闭视频播放
+2025-06-09 10:24:24,544 sDEBUG    | stop
+2025-06-09 10:24:30,405 sDEBUG    | waiting [class:{'class_name': 'Qt5QWindowToolSaveBits'}] ok
+2025-06-09 10:24:35,451 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:24:35,515 sDEBUG    | waiting [text:{'text': 'stop'}] ok
+2025-06-09 10:24:35,559 sDEBUG    | click: [stop/::0xC350]  (2891,941)]
+2025-06-09 10:24:45,876 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:24:45,876 sINFO     | 重命名录制视频存在
+2025-06-09 10:24:45,957 sINFO     | 关闭录屏
+2025-06-09 10:24:54,685 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:24:54,685 sDEBUG    | stop
+2025-06-09 10:25:01,966 sDEBUG    | waiting [type:{'item_type': 50004}] ok
+2025-06-09 10:25:01,981 sDEBUG    | click: [/:SourceText:0xC354] TextBox (1532,985)]
+2025-06-09 10:25:02,416 sDEBUG    | moveto: [/:SourceText:0xC354] TextBox (1532,985)]
+2025-06-09 10:25:03,321 sINFO     | 点击保存字幕
+2025-06-09 10:25:04,246 sDEBUG    | waiting [id:{'id': 'SaveBtn'}] ok
+2025-06-09 10:25:04,267 sDEBUG    | click: [/:SaveBtn:0xC350] Button (2222,826)]
+2025-06-09 10:25:09,328 sDEBUG    | Sleep: ■■■■■■■■■■■■■■■■■■■■ [5/5]
+2025-06-09 10:25:09,594 sDEBUG    | waiting [id:{'id': 'mDstCheckBox'}] ok
+2025-06-09 10:25:09,595 sDEBUG    | check[1]: [译文字幕/:mDstCheckBox:0xC352] CheckBox (1856,994)]
+2025-06-09 10:25:09,616 sDEBUG    | click: [译文字幕/:mDstCheckBox:0xC352] CheckBox (1856,994)]
+2025-06-09 10:25:10,712 sDEBUG    | waiting [text:{'text': '自定义存储路径'}] ok
+2025-06-09 10:25:10,730 sDEBUG    | click: [自定义存储路径/:mExpToDiskBtn:0xC350] Button (1936,1192)]
+2025-06-09 10:25:12,909 sDEBUG    | waiting [ex:{'text': '文件名:', 'id': None, 'type': 50004, 'class_name': None}] ok
+2025-06-09 10:25:12,929 sDEBUG    | click: [AI 字幕2025-06-09-10-25-04.html/:1001:0xC354] Edit (1607,1342)]
+2025-06-09 10:25:18,316 sINFO     | 保存txt文本
+2025-06-09 10:25:19,695 sDEBUG    | waiting [id:{'id': 'FileTypeControlHost'}] ok
+2025-06-09 10:25:19,734 sDEBUG    | click: [HTML Files (*.html)/:FileTypeControlHost:0xC353] AppControlHost (1624,1385)]
+2025-06-09 10:25:21,342 sDEBUG    | waiting [text:{'text': 'txt files'}] ok
+2025-06-09 10:25:21,362 sDEBUG    | click: [txt files (*.txt)/::0xC357]  (1330,1452)]
+2025-06-09 10:25:22,713 sDEBUG    | waiting [text:{'text': '保存(S)'}] ok
+2025-06-09 10:25:22,746 sDEBUG    | click: [保存(S)/:1:0xC350] Button (1935,1579)]
+2025-06-09 10:25:22,770 sINFO     | run TestCase end : AI字幕-媒体音内录[ai_sys] 0
+2025-06-09 10:25:24,579 sDEBUG    | stop
+2025-06-09 10:25:27,655 sINFO     | 比较字错率
+2025-06-09 10:25:28,302 sINFO     | 字符总数1449,错误数1447
+2025-06-09 10:25:28,303 sINFO     | run TestSuilt end : 音频识别[SpeechRecognize]
+2025-06-09 10:25:28,303 sINFO     | ########################### loop finished
+2025-06-09 10:25:30,319 sINFO     | ####### project finished!!
+2025-06-09 10:25:30,320 sINFO     |                               
+2025-06-09 10:25:30,320 sINFO     |      █████╗  █████╗ ████████╗
+2025-06-09 10:25:30,321 sINFO     |     ██╔══██╗██╔══██╗╚══██╔══╝
+2025-06-09 10:25:30,321 sINFO     |     ███████║███████║   ██║   
+2025-06-09 10:25:30,321 sINFO     |     ██╔══██║██╔══██║   ██║   
+2025-06-09 10:25:30,321 sINFO     |     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝ V2.1.0 [buid_id:2025-04-17-185984]
+2025-06-09 10:25:30,322 sINFO     | 获取帮助及最新版本: http://rnd-rhino.rnd.hihonor.com/wiki/doku.php?id=rhino集成测试系统:自动化测试:融合自动化测试_aat:1.简介

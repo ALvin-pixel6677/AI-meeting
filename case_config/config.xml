@@ -1,0 +1,8 @@
+<config>
+    <TestSuite title="音频识别" id="SpeechRecognize" catalog="speech_recognize">
+<!--         <TestCase title="笔记-Mic收音" id="note_mic" path="note_mic_radio.NoteMicRadio" video_path="/sdcard/test.mp4" play_time="1500" gt_file="C:\Users\admin\Desktop\qwe\note_user.txt"/>-->
+<!--        <TestCase title="笔记-媒体音内录" id="note_sys" path="note_sys_record.NoteSysRecord" video_name="D:\程嘉琪\单人-中文-B站网课语料.wav" play_time="360" gt_file="D:\程嘉琪\单人-中文-内录GT.txt"/>-->
+<!--        <TestCase title="AI字幕-Mic收音" id="ai_mic" path="ai_subtitles_mic_radio.AISubtitlesMicRadio" video_path="/sdcard/test.mp4" play_time="1500" gt_file="C:\Users\admin\Desktop\qwe\note_user.txt"/>-->
+         <TestCase title="AI字幕-媒体音内录" id="ai_sys" path="ai_subtitles_sys_record.AISubtitlesSysRecord" video_name="D:\程嘉琪\测试素材-会议\测试素材-会议\素材\多人-中文-多人会议实录.wav" play_time="350" gt_file="D:\程嘉琪\测试素材-会议\测试素材-会议\原文\多人-中文-麦克收音GT.txt"/>
+    </TestSuite>
+</config>
